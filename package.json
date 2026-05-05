@@ -1,0 +1,13 @@
+{
+  "name": "@gohugo-ananke/ananke-asylum",
+  "description": "Runnable Ananke test cases, examples, fixtures, and support reproductions.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "gohugo-ananke/ananke-asylum.git",
+  "type": "module",
+  "scripts": {
+    "build": "hugo --gc --environment production",
+    "check": "hugo --gc --environment production",
+    "server": "hugo server --gc --environment development --disableFastRender --navigateToChanged --buildDrafts --buildFuture --bind 127.0.0.1 --baseURL http://127.0.0.1:1313/"
+  }
+}
