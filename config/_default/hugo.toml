@@ -1,0 +1,45 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Ananke Asylum"
+summaryLength = 70
+enableRobotsTXT = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[module]
+
+[module.hugoVersion]
+extended = true
+min = "0.154.5"
+
+[[module.imports]]
+path = "github.com/theNewDynamic/gohugo-theme-ananke/v2"
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "content"
+target = "content"
+
+[[module.mounts]]
+source = "data"
+target = "data"
+
+[[module.mounts]]
+source = "i18n"
+target = "i18n"
+
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "static"
+target = "static"
+
+[params]
+description = "Runnable Ananke test cases, examples, fixtures, and support reproductions."
+site_logo = ""
