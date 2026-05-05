@@ -4,10 +4,20 @@
   "version": "0.0.0",
   "license": "MIT",
   "repository": "gohugo-ananke/ananke-asylum.git",
-  "type": "module",
+  "author": "Patrick Kollitsch <davidsneighbourdev+gh@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/gohugo-ananke/ananke-asylum/issues"
+  },
+  "homepage": "https://github.com/gohugo-ananke/ananke-asylum#readme",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "11.0.0",
+    "release-it": "20.0.1"
+  },
   "scripts": {
     "build": "hugo --gc --environment production",
     "check": "hugo --gc --environment production",
+    "release": "release-it",
     "server": "hugo server --gc --environment development --disableFastRender --navigateToChanged --buildDrafts --buildFuture --bind 127.0.0.1 --baseURL http://127.0.0.1:1313/"
-  }
+  },
+  "type": "module"
 }
