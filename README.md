@@ -24,6 +24,21 @@ Use this repository to:
 * create stable examples for support and documentation
 * verify fixes before they are proposed upstream
 
+## Public-domain literature fixture content
+
+This branch adds an initial public-domain literature corpus for theme development:
+
+* Robert W. Chambers, *The King in Yellow*
+* Charlotte Perkins Gilman, *The Yellow Wallpaper*
+
+The content structure includes books, case files, authors, source records, taxonomies, and a todo page. The full text pages are generated from Project Gutenberg source files so the corpus can be refreshed from canonical public-domain sources.
+
+Generate the full text content:
+
+```bash
+npm run content:import
+```
+
 ## Commands
 
 Install dependencies:
