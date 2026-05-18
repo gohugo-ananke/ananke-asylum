@@ -1,0 +1,45 @@
+baseURL = "https://gohugo-ananke.github.io/ananke-asylum/"
+languageCode = "en-gb"
+title = "Ananke Asylum"
+theme = ["github.com/gohugo-ananke/ananke"]
+
+[pagination]
+pagerSize = 12
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+author = "authors"
+source = "sources"
+work = "works"
+
+[params]
+description = "A public-domain literature fixture site for debugging and developing the GoHugo Ananke theme."
+site_logo = ""
+background_color_class = "bg-black"
+featured_image = ""
+recent_posts_number = 6
+
+[[menus.main]]
+name = "Books"
+pageRef = "/books"
+weight = 10
+
+[[menus.main]]
+name = "Case files"
+pageRef = "/case-files"
+weight = 20
+
+[[menus.main]]
+name = "Authors"
+pageRef = "/authors"
+weight = 30
+
+[[menus.main]]
+name = "Todo"
+pageRef = "/todo"
+weight = 40
+
+[module]
+[[module.imports]]
+path = "github.com/gohugo-ananke/ananke"
