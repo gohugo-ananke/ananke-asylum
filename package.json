@@ -10,8 +10,8 @@
   },
   "homepage": "https://github.com/gohugo-ananke/ananke-asylum#readme",
   "devDependencies": {
-    "@release-it/conventional-changelog": "11.0.0",
-    "release-it": "20.0.1"
+    "@release-it/conventional-changelog": "11.0.1",
+    "release-it": "20.2.0"
   },
   "scripts": {
     "build": "hugo --gc --environment production",
